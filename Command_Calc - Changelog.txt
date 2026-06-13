@@ -1,0 +1,142 @@
+Welcome to Command Calc v.1.4.2
+
+A CLI - based Mathematical Toolkit.
+
+©Illektron Softwares
+
+_________________________________________________________________________________________________
+
+version v.1.4.2
+
+What's new:-
+
+* Fixed Screen Transition Glitch in Basic Geometry.
+* Improved Error Handling in Exponential Operations.
+* Fixed Negative Cube Root Gibberish Answer Error.
+* Some Minor Bug Fixes.
+
+Release: 11-05-2026
+_________________________________________________________________________________________________
+
+version  v.1.4.1
+
+What's new:-
+
+* Fixed Clear Screen Glitch After Wrong Input in Basic Calc, Interests, Factorials and Basic Geometry.
+* Fixed Decimal Incompatibility in Basic Calc.
+* Improved Error Handling in Trigonometry, Exponential Operations and Basic Geometry.
+* Some Minor Backend Changes
+
+Release: 01-05-2026
+_________________________________________________________________________________________________
+
+Version v.1.4.0 (**MAJOR UPDATE**)
+
+What's new:-
+
+* Revamped Welcome Screen- UI Improvement and Simpler Beginning.
+* 'Guide' Option was Removed from Welcome Screen and Added as a Mode 'g' in Main Menu.
+* Major UX improvement- Added Clear Screen and Clean Transition with Motivational Quotes.
+* Acceptance of Short-Form Inputs in Some Yes/No Prompts- y/n Accepted.
+* Terminology Improvement In Basic Geometry -> 2-D Shapes -> Quadrilaterals -> Rectangle.
+* Minor Bug Fixes.
+* Some Minor Backend Changes.
+
+Release: 30-04-2026
+_________________________________________________________________________________________________
+
+Version v.1.3.0 (**MAJOR UPDATE**)
+
+ What's new:-
+
+* Revamped the UI - Added Separators and Designs.
+* Major Backend Changes.
+* Added Loops - Replaced the "Please Restart The Program to Continue" with Return and Recalculate.
+* Abrupt Termination in CMD fixed - Users can now Peacefully Use Command Prompt and get answers.
+* Remade the Basic Calculator Mode - Use Expressions.
+* Some Minor Error Handling Improvements in Basic Geometry.
+* Minor Changes in Instructions.
+
+Release: 20-03-2026
+_________________________________________________________________________________________________
+
+Version v.1.2.1
+
+What's new:-
+
+* Minor Design Changes.
+* Minor Backend Changes.
+
+Release: 15-03-2026
+_________________________________________________________________________________________________
+
+Version v.1.2.0 (**MAJOR UPDATE**)
+
+*What's new:-
+
+* Added Interest Calculator Mode (Simple Interest and Compound Interest).
+* Added Multiplication Table Generator.
+* Added Basic Geometry Mode with 2-D and 3-D calculations.
+* Some Minor Error handling Improvements
+
+_________________________________________________________________________________________________
+
+Version v.1.1.0 (**MAJOR UPDATE**)
+
+What's new:-
+
+* Added Variance in Statistics Mode(Minimal Features).
+* Minor Design Changes.
+* Changed the 'InfoStart' call with 'Guide'.
+* Revamped the Basic Trigonometry Mode.
+* Minor changes in Exponential Operations
+
+_________________________________________________________________________________________________
+
+Version v.1.0.0 (**MAJOR UPDATE**)
+
+What's new:-
+
+* Added Statistics Mode
+* Some minor Changes
+
+ Release: 08-12-2026
+_________________________________________________________________________________________________
+
+Version v.0.3.1
+
+What's new:-
+
+* Minor Bug Fixes
+* Some Minor Changes
+
+Release: 08-12-2026
+_________________________________________________________________________________________________
+
+Version v.0.3.0 (**MAJOR UPDATE**)
+
+What's new:-
+
+* Added 4 Different Modes. Many Functionalities are made Possible
+* Changed the Way How a Calculator works
+* Some minor Changes
+
+Release: 08-12-2026
+_________________________________________________________________________________________________
+
+Version v.0.2.0 (**MAJOR UPDATE**)
+
+What's new:-
+
+* Multiple numbers can Now be Entered for a Calculation
+* Multiple Operators can be used
+
+Release: 08-12-2026
+_________________________________________________________________________________________________
+
+Version v.0.1.0 (**First Release**)
+
+* -Enter two numbers and an Operator. Press Enter Each time After An Input.
+
+Release: 08-12-2026
+_________________________________________________________________________________________________
