@@ -1,0 +1,400 @@
+#Command Calc
+
+#Welcome
+txt1='''WELCOME TO COMMAND CALC
+- A Calculator that Runs on your "Command Prompt".
+                 v-0.3.0
+                 
+Powered by Python            ©Illektron Softwares
+
+'''
+
+print(txt1)
+
+#General instructions
+
+txt2='''
+General Instructions:-
+  i). To Execute the Operation press '=' in the Operation section.
+  ii). Do not Forget to Press 'ENTER' Everytime you Enter an Input.
+  iii). Restart the Program for Another Calculation.
+
+IMPORTANT NOTICE:-
+
+   *The 'Pi' Symbol is not Recognized. Please Enter 3.14 for 'Pi.'*
+   **Scientific Terms are Not Available.**
+   ***The Required Answer Will be Shown in Decimal Format.***
+   ****If the Calculator Fails to Provide the Solution on Command Prompt,
+       please Install Python and Run it on IDLE****
+           
+'''
+
+print(txt2)
+
+#Import Functions
+
+import math
+import statistics
+
+#Choose Modes
+
+print('''1.Basic Calculator
+2.Exponential Operations
+3.Factorials
+4.Basic Trigonometry
+
+''')
+mode=int(input("Enter the Mode:"))
+      
+if mode==1:
+      
+  #Instructions 1
+
+   txt3='''
+   Instructions:-
+
+   i). Enter a Number in Integer Form or Decimal Form.
+   ii). Enter the Required Operation.
+
+        For Operations,
+
+         Addition:'+'           Subtraction:'-'
+         Multiplication:'x'     Division:'/'
+
+   GOOD LUCK!!!
+
+   '''
+   txt4='''
+   GOOD LUCK!!!
+
+   '''
+   
+   guide=input("Do you Want to View Instructions? (Yes/No):")
+
+   if guide=='yes':
+     print(txt3)
+  
+   elif guide=='Yes':
+       print(txt3)
+
+   elif guide=='YES':
+       print(txt3)
+    
+   elif guide=='no':
+       print(txt4)
+    
+   elif guide=='No':
+       print(txt4)
+    
+   elif guide=='NO':
+       print(txt4)
+    
+   else:
+       print("System Would Consider it as 'NO' ",txt4)
+    
+   #Main Program 1
+
+   res=float(input("Enter a Number: "))
+
+   while True:
+        o=input("Enter Operator: ")
+
+        if o=='=':
+          print("Solution:",res)
+          print('''
+          Please Restart for Another Calculation.
+
+               Thanks For Using Our App.''')
+          break
+
+        num=float(input("Enter a Number: "))
+
+        if o=='+':
+          res += num
+
+        elif o=='-':
+            res -= num
+
+        elif o=='x':
+            res *= num
+
+        elif o=='*':
+            res *= num
+
+
+        elif o=='/':
+            if num != 0:
+              res /= num
+
+            else:
+                print("Not Defined...")
+
+        else:
+            print("Invalid operator.... Please Restart the Program to Continue.")
+            break
+
+
+elif mode==2:
+
+    #Choice 1
+    print('''1.Square and Cube Roots.
+2.Raise to Exponential Form.
+
+    ''')
+    
+    mode1=int(input("Enter Your Choice:"))
+
+    if mode1==1:
+       #Instructions 2
+      
+       txt5='''Instructions:-
+
+       For Operations,
+
+          Square Root:'sqrt'
+          Cube Root:'cbrt'
+     
+       GOOD LUCK!!!!
+
+       '''
+       txt6='''
+GOOD LUCK!!!
+
+   '''
+       guide1=input("Do you Want to View Instructions? (Yes/No):")
+
+       if guide1=='yes':
+         print(txt5)
+  
+       elif guide1=='Yes':
+           print(txt5)
+
+       elif guide1=='YES':
+           print(txt5)
+    
+       elif guide1=='no':
+           print(txt6)
+    
+       elif guide1=='No':
+           print(txt6)
+    
+       elif guide1=='NO':
+           print(txt6)
+     
+       else:
+           print("System Would Consider it as 'NO'. ",txt6)
+           
+
+       #Main Program 2
+        
+       num1=int(input("Enter the number:"))
+       o1=input("Enter the operation:")
+
+       if o1=='sqrt':
+         print(math.sqrt(num1))
+        
+       elif o1=='cbrt':
+           print(math.cbrt(num1))
+
+       else:
+           print("Invalid operator.... Please Restart the Program to Continue.")
+
+       print('''
+       Please Restart for Another Calculation.
+
+            Thanks For Using Our App.''')
+       
+
+    elif mode1==2:
+
+        #Instructions 3
+
+        txt7='''Instructions:-
+
+        Enter the Value of Number and Power to the
+        Respective Directories.
+
+        GOOD LUCK!!!!
+
+        '''
+
+        txt8='''GOOD LUCK!!!!
+
+        '''
+        
+        guide2=input("Do you Want to View Instructions? (Yes/No):")
+
+        if guide2=='yes':
+          print(txt7)
+  
+        elif guide2=='Yes':
+            print(txt7)
+
+        elif guide2=='YES':
+            print(txt7)
+    
+        elif guide2=='no':
+            print(txt8)
+    
+        elif guide2=='No':
+            print(txt8)
+    
+        elif guide2=='NO':
+            print(txt8)
+     
+        else:
+            print("System Would Consider it as 'NO' ",txt8)
+            
+        #Main Program 3
+        num2=float(input("Enter the Number:"))
+        pwr1=float(input("Enter the Power:"))
+          
+        print("Solution:",pow(num2,pwr1))
+        print('''
+        Please Restart for Another Calculation.
+
+            Thanks For Using Our App.''')
+
+    else:
+        print("INVALID CHOICE.... Please Restart the Program to Continue.")
+      
+elif mode==3:
+
+    #Instructions 4
+
+    txt9='''Instructions:-
+
+    Enter the Number to Find its Factorial.
+
+    GOOD LUCK!!!!
+
+     '''
+
+    txt10='''GOOD LUCK!!!!
+
+        '''
+    guide3=input("Do you Want to View Instructions? (Yes/No):")
+
+    if guide3=='yes':
+      print(txt9)
+  
+    elif guide3=='Yes':
+        print(txt9)
+
+    elif guide3=='YES':
+        print(txt9)
+    
+    elif guide3=='no':
+        print(txt10)
+    
+    elif guide3=='No':
+        print(txt10)
+    
+    elif guide3=='NO':
+        print(txt10)
+     
+    else:
+        print("System Would Consider it as 'NO'. ",txt10)
+            
+    #Main Program 4
+        
+    num3=int(input("Enter the Number:"))
+    print("Factorial of",num3,":",math.factorial(num3))
+    print('''
+    Please Restart for Another Calculation.
+
+       Thanks For Using Our App.''')
+
+elif mode==4:
+
+    #Instructions 4
+
+    txt11='''Instructions:-
+
+    i)Enter the Angle
+    ii)for operations,
+
+         Type Sin, Cos or Tan in the Operation Section.
+      
+    IMPORTANT NOTICE:-
+
+        *The Solutions shown Below are in Decimal format.*
+ 
+    GOOD LUCK!!!!
+
+     '''
+
+    txt12='''GOOD LUCK!!!!
+
+        '''
+    guide4=input("Do you Want to View Instructions? (Yes/No):")
+
+    if guide4=='yes':
+      print(txt11)
+  
+    elif guide4=='Yes':
+        print(txt11)
+
+    elif guide4=='YES':
+        print(txt11)
+    
+    elif guide4=='no':
+        print(txt12)
+    
+    elif guide4=='No':
+        print(txt12)
+    
+    elif guide4=='NO':
+        print(txt12)
+     
+    else:
+        print("System Would Consider it as 'NO'. ",txt12)
+            
+    #Main Program 4
+
+    num4=float(input("Enter the Angle:"))
+    o2=input("Enter the Trigonometric Function:")
+
+    if o2=='sin':
+      print("Sin",num4,math.sin(num4))
+
+    elif o2=='SIN':
+        print("Sin",num4,math.sin(num4))
+
+        
+    elif o2=='Sin':
+        print("Sin",num4,math.sin(num4))
+
+    elif o2=='COS':
+        print("Cos",num4,math.cos(num4))
+
+    elif o2=='Cos':
+        print("Cos",num4,math.cos(num4))
+
+    elif o2=='cos':
+        print("Cos",num4,math.cos(num4))
+        
+    elif o2=='TAN':
+        print("Tan",num4,math.tan(num4))
+
+    elif o2=='Tan':
+        print("Tan",num4,math.tan(num4))
+
+    elif o2=='tan':
+        print("Tan",num4,math.tan(num4))
+
+    else:
+        print("Invalid operator.... Please Restart the Program to Continue.")
+
+    print('''
+       Please Restart for Another Calculation.
+
+            Thanks For Using Our App.''')
+
+else:
+    print("INVALID CHOICE.... Please Restart the Program to Continue.")
+
+
+
+
+
