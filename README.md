@@ -15,5 +15,5 @@ In Command Calc, Users get an Interactive Environment where they get their outpu
 Guide Before Installation:
 
 The Public Version of this software is Available in the Releases Folder for Windows, MacOS and Linux(All Distros). For Details Regarding Accessibility, Check out The LICENSE Provided in the Repository.
-
+Also Note That The Public Version is Still in "Yet to Release" State
  
